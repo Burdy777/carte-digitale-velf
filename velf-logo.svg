@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="640" height="320" role="img" aria-label="VELF Digital Agency">
+  <style>
+    .word { font-family: 'Century Gothic', 'Questrial', 'Futura', 'Trebuchet MS', sans-serif; font-weight: 200; }
+    .tag  { font-family: 'Century Gothic', 'Questrial', 'Futura', 'Trebuchet MS', sans-serif; font-weight: 300; }
+  </style>
+  <text class="word" x="320" y="170" text-anchor="middle" font-size="150" letter-spacing="26">
+    <tspan fill="#FFFFFF">VEL</tspan><tspan fill="#A78BFA">F</tspan>
+  </text>
+  <text class="tag" x="324" y="232" text-anchor="middle" font-size="34" letter-spacing="16" fill="#D7D7E0">DIGITAL AGENCY</text>
+</svg>
