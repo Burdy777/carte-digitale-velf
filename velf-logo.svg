@@ -1,10 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="640" height="320" role="img" aria-label="VELF Digital Agency">
-  <style>
-    .word { font-family: 'Century Gothic', 'Questrial', 'Futura', 'Trebuchet MS', sans-serif; font-weight: 200; }
-    .tag  { font-family: 'Century Gothic', 'Questrial', 'Futura', 'Trebuchet MS', sans-serif; font-weight: 300; }
-  </style>
-  <text class="word" x="320" y="170" text-anchor="middle" font-size="150" letter-spacing="26">
-    <tspan fill="#FFFFFF">VEL</tspan><tspan fill="#A78BFA">F</tspan>
-  </text>
-  <text class="tag" x="324" y="232" text-anchor="middle" font-size="34" letter-spacing="16" fill="#D7D7E0">DIGITAL AGENCY</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 150" role="img" aria-label="VELF Digital Agency">
+  <defs>
+    <linearGradient id="vg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C4B5FD"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Diamond icon -->
+  <g transform="translate(62, 73)">
+    <!-- Shadow/glow -->
+    <rect x="-42" y="-42" width="84" height="84" rx="7" transform="rotate(45)" fill="#7C3AED" opacity="0.3" filter=""/>
+    <!-- Main diamond -->
+    <rect x="-38" y="-38" width="76" height="76" rx="6" transform="rotate(45)" fill="url(#vg)"/>
+    <!-- Inner subtle border -->
+    <rect x="-33" y="-33" width="66" height="66" rx="4" transform="rotate(45)" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <!-- V chevron -->
+    <path d="M-17,-9 L0,17 L17,-9" fill="none" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- VELF wordmark -->
+  <text x="122" y="97"
+    font-family="'Century Gothic', Futura, 'Trebuchet MS', sans-serif"
+    font-weight="200"
+    font-size="74"
+    letter-spacing="12"
+    fill="#FFFFFF">VEL<tspan fill="#A78BFA">F</tspan></text>
+
+  <!-- Tagline -->
+  <text x="124" y="126"
+    font-family="'Century Gothic', Futura, 'Trebuchet MS', sans-serif"
+    font-weight="300"
+    font-size="13"
+    letter-spacing="8"
+    fill="#9A9AB0">DIGITAL AGENCY</text>
 </svg>
